@@ -1,0 +1,21 @@
+{
+  "name": "bobbie",
+  "version": "0.1.0",
+  "description": "RaaS Policeman (bobbie) - Access and Authorization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Coetzee <chrysalis69@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-http-bearer": "^1.0.1",
+    "passport-twitter": "^1.0.4"
+  }
+}

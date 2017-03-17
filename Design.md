@@ -17,19 +17,19 @@ This project is designed to deliver an easy to use web based interface to get st
 * Storage (possibly just docker image with object storage)
 * DB (mongoDB)
 
-### GUI
+### GUI (projector)
 Presentation layer
 
-### Access and Authorization
+### Access and Authorization (bobbie)
 Will make use of *passport* and other services
 
-### Certificate Store
+### Certificate Store (locksmith)
 Will contain per user certificates to encrypt traffic between Presentation layer & backend (docker container)
 
-### Router
+### Router ()
 Link persentation layer to backend router
 
-### Director
+### Director ()
 Start docker containers and manage networks
 
 ### Repository (Image & Metadata)
